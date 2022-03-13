@@ -17,7 +17,7 @@ if ($_POST[""]) {
 
     $ID = $_SESSION["idKunde"];
 
-    $hent_ordre = "SELECT `idOrdre` FROM `ordre` WHERE Kunde_idKunde=$ID ORDER BY idOrdre DESC LIMIT 1";
+    $hent_ordre = "SELECT `idOrdre` FROM `Ordre` WHERE Kunde_idKunde=$ID ORDER BY idOrdre DESC LIMIT 1";
 
     if ($kobling->query($hent_ordre)) {
         echo "Spørringen $hent_ordre ble gjennomført.";

@@ -33,7 +33,7 @@ if(isset($_POST["logg_inn"]))
             $DPW = $rad["Passord"];
         }
     }
-    $get_KID ="SELECT bokhandel.kunde.idKunde FROM bokhandel.kunde WHERE Legitimasjon_Brukernavn ='$DBN'";
+    $get_KID ="SELECT bokhandel.Kunde.idKunde FROM bokhandel.Kunde WHERE Legitimasjon_Brukernavn ='$DBN'";
 
     if ($resultat =$kobling->query($get_KID)) {
         echo "Spørringen $get_KID ble gjennomført.";

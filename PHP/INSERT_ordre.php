@@ -19,7 +19,7 @@ if ($_POST["sender"]=="send") {
 
     echo "$ID";
     
-    $lag_ordre = "INSERT INTO `ordre` (kunde_idKunde) VALUES ($ID)";
+    $lag_ordre = "INSERT INTO `Ordre` (Kunde_idKunde) VALUES ($ID)";
 
     if ($kobling->query($lag_ordre)) {
         echo "Spørringen $lag_ordre ble gjennomført.";
