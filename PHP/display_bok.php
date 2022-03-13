@@ -1,10 +1,11 @@
 <?php
 session_start();
  // Tilkoblingsinformasjon
- $tjener = "localhost";
- $brukernavn = "root";
- $passord = "root";
- $database = "kilder";
+ $tjener = "books.topheinz.com";
+ $brukernavn = "book";
+ $passord = "Passord01";
+ $database = "bokhandel";
+ 
  // Opprette en kobling
  $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
 

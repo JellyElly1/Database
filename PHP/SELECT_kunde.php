@@ -5,9 +5,9 @@ if(isset($_POST["logg_inn"]))
 {
 
     // Tilkoblingsinformasjon
-    $tjener = "localhost";
-    $brukernavn = "root";
-    $passord = "root";
+    $tjener = "books.topheinz.com";
+    $brukernavn = "book";
+    $passord = "Passord01";
     $database = "bokhandel";
 
         // Opprette en kobling

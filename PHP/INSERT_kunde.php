@@ -3,9 +3,9 @@ session_start();
 if (isset($_POST["registrer"])) {
 
     // Tilkoblingsinformasjon
-    $tjener = "localhost";
-    $brukernavn = "root";
-    $passord = "root";
+    $tjener = "books.topheinz.com";
+    $brukernavn = "book";
+    $passord = "Passord01";
     $database = "bokhandel";
 
     // Opprette en kobling
