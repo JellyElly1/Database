@@ -45,7 +45,7 @@
                         <a class="dropdown-look" href="../lower_pages/vg1.html">VG1</a>
                         <a class="dropdown-look" href="../lower_pages/vg2.html">VG2</a>
                         <a class="dropdown-look" href="../lower_pages/jobb.html">For arbeidsgivere</a>
-                        <a class="dropdown-look" href="database.php">Database</a>
+                        <a class="dropdown-look" href="database.php">Bokhandel</a>
                     </div>
                 </div>
             </div>

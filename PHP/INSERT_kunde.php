@@ -33,7 +33,7 @@ if (isset($_POST["registrer"])) {
     $legitimasjon = "INSERT INTO Legitimasjon (Brukernavn, Passord)
         VALUES ('$BN', '$PWH')";
 
-    $kunde = "INSERT INTO kunde (Fornavn_k, Etternavn_k, Epost, Adresse, Postnummer_Postnummer, Legitimasjon_Brukernavn)
+    $kunde = "INSERT INTO Kunde (Fornavn_k, Etternavn_k, Epost, Adresse, Postnummer_Postnummer, Legitimasjon_Brukernavn)
         VALUES ('$FN', '$EN', '$EP', '$AD', '$PN', '$BN')";
 
 
